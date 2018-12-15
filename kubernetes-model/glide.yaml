@@ -25,8 +25,8 @@ import:
 - package: github.com/openshift/origin
   version: v3.9.0
 - package: k8s.io/kubernetes
-  version: release-1.9.1
-  repo: https://github.com/openshift/kubernetes.git
+  version: 1.9-stable-cci
+  repo: http://code-cbu.huawei.com/CBU-PaaS/Community/K8S/kubernetes.git
   vcs: git
 - package: github.com/coreos/etcd
   version: 121edf0467052d55876a817b89875fb39a99bf78
